@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/14-springboot-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-springboot-elasticsearch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-springboot-task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-springboot-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-springboot-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-springboot-dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-springboot-eureca-comsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-springboot-eureca-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-springboot-eureca-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-springboot-actuator-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-springboot-actuator/src/main/java" charset="UTF-8" />
+  </component>
+</project>

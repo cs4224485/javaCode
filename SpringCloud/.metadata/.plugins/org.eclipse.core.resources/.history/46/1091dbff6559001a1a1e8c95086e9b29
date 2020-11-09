@@ -1,0 +1,14 @@
+package com.harry.springCloud;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@MapperScan("com.harry.springCloud.dao")
+public class DeptProvider8801_App {
+	public static void main(String[] args) {
+		SpringApplication.run(DeptProvider8801_App.class, args);
+
+	}
+}

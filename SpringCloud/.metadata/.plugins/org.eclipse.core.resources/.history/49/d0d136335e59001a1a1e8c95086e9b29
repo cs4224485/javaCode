@@ -1,0 +1,5 @@
+package com.harrry.springCloud.service;
+
+public interface DeptService {
+
+}

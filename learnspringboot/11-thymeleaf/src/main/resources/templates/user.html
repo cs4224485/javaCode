@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    <table>-->
+<!--        <tr th:each="user, interStat:${list}">-->
+<!--            <td th:text="${interStat.index}"></td>-->
+<!--            <td th:text="${user.id}">id</td>-->
+<!--            <td th:text="${user.name}">name</td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!-- 遍历map -->
+    <table>
+        <tr th:each="myMap:${map}">
+            <td th:text="${myMapStat.index}"></td>
+            <td th:text="${myMap.key}">id</td>
+            <td th:text="${myMap.value.id}">name</td>
+            <td th:text="${myMap.value.name}">name</td>
+        </tr>
+    </table>
+</body>
+</html>

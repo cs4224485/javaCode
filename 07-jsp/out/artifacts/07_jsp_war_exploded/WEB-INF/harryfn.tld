@@ -1,0 +1,19 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <!-- 指定定义当前函数库版本号,随意定义 -->
+    <tlib-version>1.0</tlib-version>
+    <!-- 指定该函数库的名, 一个函数库对应一个名称，通常与文件名相同, 该名称会在JSP中使用到-->
+    <short-name>harryfn</short-name>
+    <!-- 指定该函数库所对应的Url, 一个库对应一个URL,在JSP中会用到 -->
+    <uri>http://www.harry.cai.com/jsp/harryTld</uri>
+    <function>
+        <!-- 指定将来在JSP的EL中使用该函数的名称, 一般与类中的静态方法一致 -->
+        <name>toUpper</name>
+        <!-- 指定函数定义在哪个类中 -->
+        <function-class>com.harry.function.StringFunction</function-class>
+        <!-- 指定类中的方法 -->
+        <function-signature>java.lang.String toUpper(java.lang.String)</function-signature>
+    </function>
+</taglib>

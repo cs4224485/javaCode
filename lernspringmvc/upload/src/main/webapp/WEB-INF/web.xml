@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- 注册spring MVC中央控制器 -->
+    <servlet>
+        <servlet-name>springMVC</servlet-name>
+        <!-- spring MVC中的核心控制器 -->
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:springmvc.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+        <!-- 使用servlet3.0实现文件上传-->
+        <multipart-config>
+            <!--临时文件路径-->
+            <location>/temp</location>
+            <!--单个上传文件的最大值，单位是byte-->
+            <max-file-size>104876</max-file-size>
+            <!--总上传文件的最大值-->
+            <max-request-size>52428800</max-request-size>
+            <!--内存缓冲区的大小,当超过该值时，会写入到临时文件中，单位是byte-->
+            <file-size-threshold>1024</file-size-threshold>
+        </multipart-config>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>springMVC</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+</web-app>

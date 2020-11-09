@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;MySelfRule.java&apos; to &apos;myrule&apos;" description="Move &apos;MySelfRule.java&apos; to &apos;myrule&apos;" destination="src/main/java/com/harry/myrule" element1="src/main/java/com/harry/springCloud/cfgbeans/MySelfRule.java" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1583499074487" updateReferences="true"/>
+</session>

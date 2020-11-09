@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>http1</servlet-name>
+        <servlet-class>com.harry.servlet.HttpTest01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>http1</servlet-name>
+        <url-pattern>/http</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HttpRequest</servlet-name>
+        <servlet-class>com.harry.servlet.RequestTest01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HttpRequest</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HttpResponse</servlet-name>
+        <servlet-class>com.harry.servlet.ResponseTest01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HttpResponse</servlet-name>
+        <url-pattern>/ResponseTest</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Forward</servlet-name>
+        <servlet-class>com.harry.servlet.Forward01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Forward</servlet-name>
+        <url-pattern>/forward</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Other</servlet-name>
+        <servlet-class>com.harry.servlet.Other</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Other</servlet-name>
+        <url-pattern>/other</url-pattern>
+    </servlet-mapping>
+</web-app>

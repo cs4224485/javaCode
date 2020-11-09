@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--注册db配置文件-->
+    <properties resource="db.properties"/>
+    <!-- mybatis配置文件中的标签是由顺序的 -->
+    <!-- 注册实体类的全限定名的别名 -->
+    <typeAliases>
+        <package name="com.harry.bean"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driverClass}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--注册映射文件-->
+        <mapper resource="com/harry/dao/CourseMapper.xml"/>
+    </mappers>
+</configuration>

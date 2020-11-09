@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="selfmanytoone" />
+        <module name="manytoone" />
+        <module name="manytomany" />
+        <module name="pattern" />
+        <module name="cache" />
+        <module name="firstmybatis" />
+        <module name="lazy" />
+        <module name="selfonetomany" />
+        <module name="onetomany" />
+        <module name="proxy" />
+        <module name="dynamicsql" />
+        <module name="refactor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myfirstmybits" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="validation" />
+        <module name="upload" />
+        <module name="resetful" />
+        <module name="urlpattern" />
+        <module name="exception" />
+        <module name="crud" />
+        <module name="firstMVC" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="resetful" target="1.11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

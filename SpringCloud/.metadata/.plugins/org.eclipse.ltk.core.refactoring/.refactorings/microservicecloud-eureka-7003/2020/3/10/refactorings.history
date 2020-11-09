@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;microservicecloud-eureka-7003/src/main/java/com/harry/springCloud/EurekaServer7001_App.java&apos; to &apos;EurekaServer7003_App.java&apos;" description="Rename resource &apos;EurekaServer7001_App.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/harry/springCloud/EurekaServer7001_App.java" name="EurekaServer7003_App.java" stamp="1583382414969" updateReferences="true"/>
+</session>

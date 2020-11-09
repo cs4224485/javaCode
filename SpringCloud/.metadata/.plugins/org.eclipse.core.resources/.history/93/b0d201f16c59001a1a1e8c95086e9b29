@@ -1,0 +1,5 @@
+package com.harry.springCloud.controller;
+
+public class DeptController_Consumer {
+
+}

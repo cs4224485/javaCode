@@ -1,0 +1,7 @@
+package com.harry.springCloud;
+
+@SpringBootApplication
+@EnableEurekaServer//EurekaServer服务器端启动类,接受其它微服务注册进来
+public class EurekaServer7001_App {
+
+}

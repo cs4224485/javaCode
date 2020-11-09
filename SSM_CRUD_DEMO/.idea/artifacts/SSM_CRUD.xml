@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SSM_CRUD">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="SSM_CRUD.war">
+      <element id="artifact" artifact-name="SSM_CRUD_DEMO:war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSM_CRUD_DEMO" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

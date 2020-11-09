@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>monkey1024</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+<div class="page-header"></div>
+<div class="container">
+    <form id="user-form" style="max-width: 330px;padding: 15px;margin: 0 auto;">
+        <input type="hidden" id="id" name="id">
+        <div class="form-group">
+            <label for="name">姓名:</label>
+            <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="phone">手机:</label>
+            <input type="text" class="form-control" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="birthday">生日:</label>
+            <input type="date" class="form-control" id="birthday" name="birthday">
+        </div>
+        <div class="form-group">
+            <label for="address">地址:</label>
+            <input type="text" class="form-control" id="address" name="address">
+        </div>
+
+        <button id="add-submit"  class="btn btn-sm btn-success" >提交</button>
+    </form>
+</div>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+
+<script>
+    $(function () {
+        bindUpdate();
+        // 从url中获取携带的参数
+        var userId = location.search.split("=")[1];
+        $("#id").val(userId);
+        function bindUpdate(){
+            $("#add-submit").click(function (event) {
+                event.preventDefault();
+                var jsonForm = $("#user-form").serializeArray();
+                console.log(jsonForm);
+                var jsonDate = {};
+                $.each(jsonForm, function (i,v) {
+                    jsonDate[v.name] = v.value;
+                });
+                console.log(jsonDate);
+                var params = JSON.stringify(jsonDate);
+                $.ajax({
+                    url:"/users/"+userId,
+                    type:"put",
+                    data:params,
+                    dataType:"json",
+                    contentType:"application/json",
+                    success:function (res) {
+                        if(res == "success"){
+                            window.location.href = "/html/user_list.html";
+                        }else {
+                            var msg = "<div class=\"alert alert-warning\" role=\"alert\">添加失败！</div>"
+                            $("#msg").html(msg);
+                            setTimeout(function () {
+                                $("#msg").empty();
+                            },20000)
+                        }
+                    }
+                })
+            })
+        }
+        // 查询要修改的数据
+        $.ajax({
+            url:"/users/"+userId,
+            type:"get",
+            dataType:"json",
+            success:function (result) {
+                $("#name").val(result.name);
+                $("#phone").val(result.phone);
+                $("#address").val(result.address);
+                $("#birthday").val(result.birthday);
+            }
+        })
+    })
+</script>
+</body>
+</html>

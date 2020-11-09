@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.harry.dao.TeamDao">
+    <!-- 根据teamid查询该team下的篮球队员 -->
+    <select id="selectPlayerByTeamId" resultType="player">
+      select id,name from t_player where tid=#{id}
+    </select>
+    <resultMap id="teamMapperAlone" type="team">
+        <id column="id" property="id"/>
+        <collection property="playerList" ofType="Player" select="selectPlayerByTeamId" column="id"/>
+    </resultMap>
+    <!-- 根据Id查询team表 -->
+    <select id="selectTeamByIdAlone" resultMap="teamMapperAlone">
+      select id,name from t_team where id=#{id}
+  </select>
+
+
+</mapper>

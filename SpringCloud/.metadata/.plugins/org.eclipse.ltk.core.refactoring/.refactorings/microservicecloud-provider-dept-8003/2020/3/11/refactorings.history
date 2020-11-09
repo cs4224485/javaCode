@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;resources&apos;&#x0D;&#x0A;- Original project: &apos;microservicecloud-provider-dept-8003&apos;&#x0D;&#x0A;- Destination element: &apos;resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     application.yml&#x0D;&#x0A;     mybatis" description="Copy elements" element1="src/main/resources/application.yml" element2="src/main/resources/mybatis" files="1" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1583846264601" target="/microservicecloud-provider-dept-hystrix-8801/src/main/resources" units="0" version="1.0"/>
+</session>

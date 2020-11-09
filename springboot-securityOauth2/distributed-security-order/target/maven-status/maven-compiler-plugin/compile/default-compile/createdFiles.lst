@@ -1,0 +1,4 @@
+com\harry\security\oauth2\order\config\ResouceServerConfig.class
+com\harry\security\oauth2\order\OrderServer.class
+com\harry\security\oauth2\order\controller\OrderController.class
+com\harry\security\oauth2\order\config\WebSecurityConfig.class

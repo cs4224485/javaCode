@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.com.harry.dao.StudentDao">
+    <select id="selectIf" resultType="student">
+        select id,name,age,score
+        from t_student
+        <where>
+            <if test="name != null and name != '' ">
+               name like '%' #{name} '%'
+            </if>
+            <if test="age>0">
+                and age>#{age}
+            </if>
+        </where>
+
+    </select>
+    <select id="selectChoose" resultType="student">
+        SELECT id,name,age,score
+        FROM t_student
+        <where>
+            <choose>
+                <when test="name != null and name != ''">
+                    name like '%' #{name} '%'
+                </when>
+                <when test="age>0">
+                    age>#{age}
+                </when>
+                <otherwise>
+                    1 != 1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <select id="selectForeachArray" resultType="student">
+        select id,name,age,score
+        from t_student
+        <if test="array != null and array.length>0">
+            where id in
+            <foreach collection="array" open="(" close=")" item="id" separator=",">
+                #{id}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selectForeachList" resultType="student">
+        select id,name,age,score
+        from t_student
+        <if test="list != null and list.size>0" >
+            where id in
+            <foreach collection="list" open="(" close=")" item="id" separator=",">
+                #{id}
+            </foreach>
+        </if>
+    </select>
+
+    <!-- 定义一个sql片段 -->
+    <sql id="selectStu">
+        select id,name,age,score
+        from t_student
+    </sql>
+
+    <select id="selectForeachListStudent" resultType="student">
+
+        <!-- 使用sql片段 -->
+        <include refid="selectStu"/>
+        <if test="list != null and list.size>0" >
+            where id in
+            <foreach collection="list" open="(" close=")" item="stu" separator=",">
+                #{stu.id}
+            </foreach>
+        </if>
+    </select>
+
+
+
+</mapper>

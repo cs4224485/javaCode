@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;microservicecloud-provider-dept-8002/src/main/java/com/harry/springCloud/DeptProvider8801_App.java&apos; to &apos;DeptProvider8802_App.java&apos;" description="Rename resource &apos;DeptProvider8801_App.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/harry/springCloud/DeptProvider8801_App.java" name="DeptProvider8802_App.java" stamp="1583497242063" updateReferences="true"/>
+</session>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/14-springboot-elasticsearch/14-springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/14-springboot-elasticsearch/14-springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-springboot-task/15-springboot-task.iml" filepath="$PROJECT_DIR$/15-springboot-task/15-springboot-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-springboot-security/16-springboot-security.iml" filepath="$PROJECT_DIR$/16-springboot-security/16-springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-springboot-dubbo-consumer/17-springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/17-springboot-dubbo-consumer/17-springboot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17-springboot-dubbo-provider/17-springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/17-springboot-dubbo-provider/17-springboot-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-eureca-comsumer/18-springboot-eureca-comsumer.iml" filepath="$PROJECT_DIR$/18-springboot-eureca-comsumer/18-springboot-eureca-comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-eureca-provider/18-springboot-eureca-provider.iml" filepath="$PROJECT_DIR$/18-springboot-eureca-provider/18-springboot-eureca-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18-springboot-eureca-server/18-springboot-eureca-server.iml" filepath="$PROJECT_DIR$/18-springboot-eureca-server/18-springboot-eureca-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-springboot-actuator/19-springboot-actuator.iml" filepath="$PROJECT_DIR$/19-springboot-actuator/19-springboot-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19-springboot-actuator-admin/19-springboot-actuator-admin.iml" filepath="$PROJECT_DIR$/19-springboot-actuator-admin/19-springboot-actuator-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBootCore.iml" filepath="$PROJECT_DIR$/.idea/SpringBootCore.iml" />
+    </modules>
+  </component>
+</project>

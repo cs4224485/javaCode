@@ -1,0 +1,11 @@
+package com.harry.springCloud.cfgbeans;
+
+@Configuration
+public class ConfigBean
+{
+    @Bean
+    public RestTemplate getRestTemplate()
+    {
+         return new RestTemplate();
+    }
+}

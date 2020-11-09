@@ -1,0 +1,5 @@
+package com.harrry.springCloud.controller;
+
+public class DeptController {
+
+}

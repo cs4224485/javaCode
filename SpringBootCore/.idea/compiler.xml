@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="14-springboot-elasticsearch" />
+        <module name="19-springboot-actuator" />
+        <module name="19-springboot-actuator-admin" />
+        <module name="16-springboot-security" />
+        <module name="17-springboot-dubbo-consumer" />
+        <module name="18-springboot-eureca-provider" />
+        <module name="18-springboot-eureca-comsumer" />
+        <module name="15-springboot-task" />
+        <module name="18-springboot-eureca-server" />
+        <module name="17-springboot-dubbo-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="14-springboot-elasticsearch" target="1.8" />
+      <module name="15-springboot-task" target="1.8" />
+      <module name="16-springboot-security" target="1.8" />
+      <module name="17-springboot-dubbo-consumer" target="1.8" />
+      <module name="17-springboot-dubbo-provider" target="1.8" />
+      <module name="18-springboot-eureca-comsumer" target="1.8" />
+      <module name="18-springboot-eureca-provider" target="1.8" />
+      <module name="18-springboot-eureca-server" target="1.8" />
+      <module name="19-springboot-actuator" target="1.8" />
+      <module name="19-springboot-actuator-admin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="14-springboot-elasticsearch" options="-parameters" />
+      <module name="15-springboot-task" options="-parameters" />
+      <module name="16-springboot-security" options="-parameters" />
+      <module name="17-springboot-dubbo-consumer" options="-parameters" />
+      <module name="17-springboot-dubbo-provider" options="-parameters" />
+      <module name="18-springboot-eureca-comsumer" options="-parameters" />
+      <module name="18-springboot-eureca-provider" options="-parameters" />
+      <module name="18-springboot-eureca-server" options="-parameters" />
+      <module name="19-springboot-actuator" options="-parameters" />
+      <module name="19-springboot-actuator-admin" options="-parameters" />
+    </option>
+  </component>
+</project>

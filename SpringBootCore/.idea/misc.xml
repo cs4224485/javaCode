@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/15-springboot-task/pom.xml" />
+        <option value="$PROJECT_DIR$/14-springboot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/16-springboot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/17-springboot-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/17-springboot-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/18-springboot-eureca-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/18-springboot-eureca-server/pom.xml" />
+        <option value="$PROJECT_DIR$/18-springboot-eureca-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/19-springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/19-springboot-actuator-admin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false" />
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.harry.dao.EmployeeDao">
+
+    <resultMap id="leaderMap" type="employee">
+        <id column="id" property="id"/>
+        <association property="employee" javaType="employee" select="selectLeaderByPid" column="mgr"/>
+    </resultMap>
+    <select id="selectLeaderByPid" resultMap="leaderMap">
+        select id,name,job,mgr
+        from t_employee
+        where id=#{id}
+    </select>
+
+</mapper>

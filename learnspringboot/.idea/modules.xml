@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/03-jsp/03-jsp.iml" filepath="$PROJECT_DIR$/03-jsp/03-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-mybatis/04-mybatis.iml" filepath="$PROJECT_DIR$/04-mybatis/04-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-interceptor/05-interceptor.iml" filepath="$PROJECT_DIR$/05-interceptor/05-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-actuator-client/06-actuator-client.iml" filepath="$PROJECT_DIR$/06-actuator-client/06-actuator-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-actuator-server/07-actuator-server.iml" filepath="$PROJECT_DIR$/07-actuator-server/07-actuator-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-autoconfigure/08-autoconfigure.iml" filepath="$PROJECT_DIR$/08-autoconfigure/08-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-starter/09-starter.iml" filepath="$PROJECT_DIR$/09-starter/09-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-test/10-test.iml" filepath="$PROJECT_DIR$/10-test/10-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-thymeleaf/11-thymeleaf.iml" filepath="$PROJECT_DIR$/11-thymeleaf/11-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-crud/12-crud.iml" filepath="$PROJECT_DIR$/12-crud/12-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+    </modules>
+  </component>
+</project>

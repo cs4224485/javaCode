@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;entity&apos; to &apos;springCloud&apos;&#x0D;&#x0A;- Original project: &apos;microservicecloud&apos;&#x0D;&#x0A;- Destination element: &apos;springCloud&apos;&#x0D;&#x0A;- Original element: &apos;entity&apos;" description="Copy folder" element1="microservicecloud-api/src/main/java/com/harry/springCloud/entity" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1582810722891" target="/microservicecloud-provider-dept-8801/src/main/java/com/harry/springCloud" units="0" version="1.0"/>
+</session>
