@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c3dc99-1796-4411-ac1a-d7adeb230750" name="Default Changelist" comment="" />
+    <list default="true" id="f3c3dc99-1796-4411-ac1a-d7adeb230750" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/harry/security/oauth2/gateway/config/ZuulConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/common/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/filter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/model/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/harry/security/oauth2/gateway/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/harry/security/oauth2/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/ResouceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/ResouceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/ResouceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/ResouceServerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/config/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/service/SpringDataUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/service/SpringDataUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/test/java/com/harry/test/TestBCrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/test/java/com/harry/test/TestBCrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/harry/security/auth2/uaa/config/AuthorizationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/harry/security/auth2/uaa/config/AuthorizationServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/test-classes/com/harry/test/TestBCrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/test-classes/com/harry/test/TestBCrypt.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +53,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,6 +70,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jwlzfrcQQGNM2NtpyCEgTaeBaW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/distributed-security-uaa/src/test/java/com/harry/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.1953125" />
     <property name="project.structure.side.proportion" value="0.69501823" />
@@ -48,33 +92,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.harry.security.oauth2.order.common" />
       <recent name="com.harry.security.oauth2.gateway.config" />
       <recent name="com.harry.security.oauth2.order.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-order\src\main\java\com\harry\security\oauth2\order" />
+      <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-gateway\src\main\java\com\harry\security\oauth2\gateway\common" />
       <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-uaa\src\test\java\com\harry\test" />
       <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-uaa\src\main\java\com\harry\security\auth2\uaa\dao" />
       <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-uaa\src\main\java\com\harry\security\auth2\uaa\model" />
-      <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-uaa\src\main\java\com\harry\security\auth2\uaa\service" />
-      <recent name="D:\JavaCode\springboot-securityOauth2\distributed-security-uaa\src\main\java\com\harry\security\auth2\uaa" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServer">
-    <configuration name="TestBCrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="distributed-security-uaa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harry.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.harry.test" />
-      <option name="MAIN_CLASS_NAME" value="com.harry.test.TestBCrypt" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestBCrypt.testBCrypt">
     <configuration name="TestBCrypt.testBCrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="distributed-security-uaa" />
       <extension name="coverage">
@@ -87,6 +117,32 @@
       <option name="MAIN_CLASS_NAME" value="com.harry.test.TestBCrypt" />
       <option name="METHOD_NAME" value="testBCrypt" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoverServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="distributed-security-discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harry.security.oauth2.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harry.security.oauth2.discovery.DiscoverServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="distributed-security-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.harry.security.oauth2.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harry.security.oauth2.gateway.GatewayServer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,26 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot-securityOauth2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.harry.security.oauth2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.harry.security.oauth2.app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UaaServer" />
         <item itemvalue="Spring Boot.OrderServer" />
+        <item itemvalue="Spring Boot.GatewayServer" />
+        <item itemvalue="Spring Boot.UaaServer" />
         <item itemvalue="JUnit.TestBCrypt.testBCrypt" />
-        <item itemvalue="JUnit.TestBCrypt" />
-        <item itemvalue="Spring Boot.app" />
+        <item itemvalue="Spring Boot.DiscoverServer" />
       </list>
     </recent_temporary>
   </component>
@@ -152,58 +195,70 @@
       <updated>1604723298704</updated>
       <workItem from="1604723301495" duration="594000" />
       <workItem from="1604723931752" duration="260000" />
-      <workItem from="1604724212942" duration="23953000" />
+      <workItem from="1604724212942" duration="24437000" />
+      <workItem from="1605007493913" duration="9670000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="2582" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604726353668">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2582" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604726353668" />
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1604924525141">
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605010388402">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604924525141" />
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605010388402" />
     <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1604723740736">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604723740736" />
-    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.0.center" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.0.left" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.0.right" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.1.bottom" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.1.center" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.1.left" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
-    <state width="1877" height="372" key="GridCell.Tab.1.right" timestamp="1604818764494">
+    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1605016104050">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="372" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604818764494" />
+    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1604724352179">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

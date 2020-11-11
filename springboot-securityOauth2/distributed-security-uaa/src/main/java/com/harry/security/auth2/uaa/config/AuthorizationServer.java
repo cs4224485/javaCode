@@ -66,16 +66,16 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(ClientDetailsServiceConfigurer clients)
             throws Exception {
-//        clients.withClientDetails(clientDetailsService);
-        clients.inMemory()// 使用in-memory存储
-                .withClient("c1")// client_id
-                .secret(new BCryptPasswordEncoder().encode("secret"))//客户端密钥
-                .resourceIds("res1")//资源列表
-                .authorizedGrantTypes("authorization_code", "password","client_credentials","implicit","refresh_token")// 该client允许的授权类型authorization_code,password,refresh_token,implicit,client_credentials
-                .scopes("all")// 允许的授权范围
-                .autoApprove(false)//false跳转到授权页面
-                //加上验证回调地址
-                .redirectUris("http://www.baidu.com/");
+        clients.withClientDetails(clientDetailsService);
+//        clients.inMemory()// 使用in-memory存储
+//                .withClient("c1")// client_id
+//                .secret(new BCryptPasswordEncoder().encode("secret"))//客户端密钥
+//                .resourceIds("res1", "res2")//资源列表
+//                .authorizedGrantTypes("authorization_code", "password","client_credentials","implicit","refresh_token")// 该client允许的授权类型authorization_code,password,refresh_token,implicit,client_credentials
+//                .scopes("ROLE_ADMIN")// 允许的授权范围
+//                .autoApprove(false)//false跳转到授权页面
+//                //加上验证回调地址
+//                .redirectUris("http://www.baidu.com/");
     }
 
 

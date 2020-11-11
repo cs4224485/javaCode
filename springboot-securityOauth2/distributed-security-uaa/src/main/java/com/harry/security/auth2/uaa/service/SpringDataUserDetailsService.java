@@ -1,5 +1,6 @@
 package com.harry.security.auth2.uaa.service;
 
+import com.alibaba.fastjson.JSON;
 import com.harry.security.auth2.uaa.dao.UserDao;
 import com.harry.security.auth2.uaa.model.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +32,9 @@ public class SpringDataUserDetailsService implements UserDetailsService {
         //将permissions转成数组
         String[] permissionArray = new String[permissions.size()];
         permissions.toArray(permissionArray);
-        UserDetails userDetails = User.withUsername(userDto.getUsername()).password(userDto.getPassword()).authorities(permissionArray).build();
+        // 这里将user转为json,整体user存入userDetails
+        String principal = JSON.toJSONString(userDto);
+        UserDetails userDetails = User.withUsername(principal).password(userDto.getPassword()).authorities(permissionArray).build();
         return userDetails;
     }
 }

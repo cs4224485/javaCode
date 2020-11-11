@@ -10,6 +10,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.OAuth2Request;
+import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -21,8 +22,13 @@ import java.util.Map;
  */
 public class AuthFilter extends ZuulFilter {
     @Override
+    public boolean shouldFilter() {
+        return true;
+    }
+
+    @Override
     public String filterType() {
-        return null;
+        return "pre";
     }
 
     @Override
@@ -30,24 +36,24 @@ public class AuthFilter extends ZuulFilter {
         return 0;
     }
 
-    @Override
-    public boolean shouldFilter() {
-        return false;
-    }
 
     @Override
     public Object run() throws ZuulException {
         /**
          * 1. 获取令牌内容
          */
+        System.out.println("first@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
         RequestContext ctx = RequestContext.getCurrentContext();
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        System.out.println("1111111111111");
+        System.out.println(authentication instanceof OAuth2Authentication);
         if (!(authentication instanceof OAuth2Authentication)){
             // 无token访问网关内资源的情况，目前仅有uua服务直接暴露
             return null;
         }
         OAuth2Authentication oAuth2Authentication = (OAuth2Authentication) authentication;
         Authentication userAuthentication = oAuth2Authentication.getUserAuthentication();
+        System.out.println(userAuthentication);
         //取出用户身份信息
         String principal = userAuthentication.getName();
         /**
