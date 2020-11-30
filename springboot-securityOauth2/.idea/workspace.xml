@@ -20,27 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c3dc99-1796-4411-ac1a-d7adeb230750" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/harry/security/oauth2/gateway/config/ZuulConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/common/EncryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/filter/TokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/model/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/harry/security/oauth2/gateway/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-gateway/src/main/java/com/harry/security/oauth2/gateway/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/distributed-security-order.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/ResouceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/ResouceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/ResouceServerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/ResouceServerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/config/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-order/target/classes/com/harry/security/oauth2/order/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/config/AuthorizationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/service/SpringDataUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/main/java/com/harry/security/auth2/uaa/service/SpringDataUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/src/test/java/com/harry/test/TestBCrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/src/test/java/com/harry/test/TestBCrypt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/harry/security/auth2/uaa/config/AuthorizationServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/classes/com/harry/security/auth2/uaa/config/AuthorizationServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-security-uaa/target/test-classes/com/harry/test/TestBCrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-security-uaa/target/test-classes/com/harry/test/TestBCrypt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +176,7 @@
       <workItem from="1604723301495" duration="594000" />
       <workItem from="1604723931752" duration="260000" />
       <workItem from="1604724212942" duration="24437000" />
-      <workItem from="1605007493913" duration="9670000" />
+      <workItem from="1605007493913" duration="11502000" />
     </task>
     <servers />
   </component>
@@ -227,45 +207,54 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604723740736" />
-    <state width="1877" height="355" key="GridCell.Tab.0.bottom" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="195" key="GridCell.Tab.0.bottom" timestamp="1605418068758">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068758" />
     <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.0.center" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="195" key="GridCell.Tab.0.center" timestamp="1605418068757">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068757" />
     <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.0.left" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="195" key="GridCell.Tab.0.left" timestamp="1605418068757">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068757" />
     <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.0.right" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="195" key="GridCell.Tab.0.right" timestamp="1605418068757">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1877" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068757" />
     <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="355" key="GridCell.Tab.1.bottom" timestamp="1605418068688">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="355" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
     <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.1.center" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="355" key="GridCell.Tab.1.center" timestamp="1605418068688">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="355" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
     <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.1.left" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="355" key="GridCell.Tab.1.left" timestamp="1605418068688">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="355" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
     <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="355" key="GridCell.Tab.1.right" timestamp="1605016104050">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1493" height="355" key="GridCell.Tab.1.right" timestamp="1605418068688">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="355" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
     <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1604724352179">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604724352179" />
-    <state x="2254" y="180" key="new project wizard" timestamp="1604922001914">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="267" y="143" key="new project wizard" timestamp="1605418061449">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="267" y="143" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418061449" />
     <state x="2254" y="180" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604922001914" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604806145110">
       <screen x="1920" y="0" width="1920" height="1040" />
