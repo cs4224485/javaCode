@@ -1,0 +1,35 @@
+server:
+  port: 3366
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          #          skipSslValidation: true # 跳过ssl认证
+          uri: https://github.com/cs4224485/springcloud-config.git
+          ### 搜索目录
+          search-paths:
+            - springcloud-config
+      ### 读取分支
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+
+rabbitmq: #rabbitmq相关配置，15672是web管理端口，5672是mq访问端口
+  port: 5672
+  host: localhost
+  username: guest
+  password: guest
+
+#暴露监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
