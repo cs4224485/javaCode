@@ -1,0 +1,62 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+				http://www.springframework.org/schema/beans/spring-beans.xsd
+				http://www.springframework.org/schema/aop
+				http://www.springframework.org/schema/aop/spring-aop.xsd
+				http://www.springframework.org/schema/context
+				http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/beans ">
+
+    <!--配置 User 对象创建-->
+    <bean id="user" class="com.harry.spring.bean.User"/>
+
+    <!--2 set 方法注入属性-->
+    <bean id="book" class="com.harry.spring.bean.Book">
+        <!--使用 property 完成属性注入
+        name：类里面属性名称
+        value：向属性注入的值
+        -->
+        <property name="bname" value="易筋经"></property>
+        <property name="bauthor" value="达摩老祖"></property>
+    </bean>
+
+    <!--3 有参数构造注入属性-->
+    <bean id="orders" class="com.harry.spring.bean.Orders">
+        <constructor-arg name="oname" value="电脑"></constructor-arg>
+        <constructor-arg name="address" value="China"></constructor-arg>
+    </bean>
+
+    <!--1 service 和 dao 对象创建-->
+    <bean id="userService" class="com.harry.spring.service.UserService">
+        <!--注入 userDao 对象
+        name 属性：类里面属性名称
+        ref 属性：创建 userDao 对象 bean 标签 id 值
+        -->
+        <property name="userDao" ref="userDaoImpl"></property>
+    </bean>
+    <bean id="userDaoImpl" class="com.harry.spring.Dao.UserDao"></bean>
+
+    <!--内部 bean-->
+    <bean id="emp" class="com.harry.spring.bean.Emp">
+        <!--设置两个普通属性-->
+        <property name="ename" value="lucy"></property>
+        <property name="gender" value="女"></property>
+        <!--设置对象类型属性-->
+        <property name="dept">
+            <bean id="dept" class="com.harry.spring.bean.Dept">
+                <property name="dname" value="安保部"></property>
+            </bean>
+        </property>
+    </bean>
+
+
+
+
+    <bean id="myBean" class="com.harry.spring.bean.MyBean"></bean>
+</beans>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.harry.bean">
+    <!-- name代表的是类名，table代表的是表名 -->
+    <class name="com.harry.bean.User" table="user">
+        <!-- name代表的是User类中的id属性，column代表的是user表中的主键id -->
+        <id name="id" column="id">
+            <!-- 主键生成策略 -->
+            <generator class="native" />
+        </id>
+        <!-- 其他属性使用property标签映射 -->
+        <property name="name" column="name" type="java.lang.String" />
+        <property name="age" type="integer" column="age" />
+        <property name="gender" type="java.lang.String" column="gender" />
+    </class>
+</hibernate-mapping>
