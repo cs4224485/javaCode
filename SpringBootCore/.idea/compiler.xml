@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="17-springboot-dubbo-provider" />
         <module name="14-springboot-elasticsearch" />
         <module name="19-springboot-actuator" />
         <module name="19-springboot-actuator-admin" />
+        <module name="01-SpringBootHelloWorld" />
         <module name="16-springboot-security" />
         <module name="17-springboot-dubbo-consumer" />
         <module name="18-springboot-eureca-provider" />
-        <module name="18-springboot-eureca-comsumer" />
         <module name="15-springboot-task" />
         <module name="18-springboot-eureca-server" />
-        <module name="17-springboot-dubbo-provider" />
+        <module name="18-springboot-eureca-comsumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="01-SpringBootHelloWorld" target="1.6" />
       <module name="14-springboot-elasticsearch" target="1.8" />
       <module name="15-springboot-task" target="1.8" />
       <module name="16-springboot-security" target="1.8" />

@@ -1,7 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aca9d4e-b2ad-4663-9bdf-0230f7ae7ca2" name="Default Changelist" comment="" />
+    <list default="true" id="8aca9d4e-b2ad-4663-9bdf-0230f7ae7ca2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JUC/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Aba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Account2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/AccountSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/AccountUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/AddTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/AddTask1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/CacheData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/CountdownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/CountdownLatchTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/CustomizeThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/DataContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/DataContainerStamped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/DeadLock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/DecimalAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/DecimalAccountSafeCas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/ExerciseSell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/ExerciseTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/GarbageBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Guarded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/GuardedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/GuardedObjectV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/JMMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/MonitorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/MySync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Pool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/SlowMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TPTInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestABAAtomicMarkableReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestDeadLock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestForkjoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestLiveLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestReentrantLock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestReentrantLock3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestReentrantLock4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestSimpleDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/TestWaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/ThreadUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/UnsafeAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/WaitStep1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/produce/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/produce/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUC/src/main/java/com/harry/thread/produce/TestProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-SpringBootHelloWorld/01-SpringBootHelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../offerCode/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JUC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-SpringBootHelloWorld/target/01-SpringBootHelloWorld-1.5.9.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/01-SpringBootHelloWorld/target/01-SpringBootHelloWorld-1.5.9.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-SpringBootHelloWorld/target/01-SpringBootHelloWorld-1.5.9.RELEASE.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/01-SpringBootHelloWorld/target/01-SpringBootHelloWorld-1.5.9.RELEASE.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/META-INF/offerCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/AirConditioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/AirConditioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/BlockingQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/BlockingQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CallableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CallableDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CompletableFutureDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CompletableFutureDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CountDownLatchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CountDownLatchDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CyclicBarrierDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/CyclicBarrierDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Foo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ForkjoinDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ForkjoinDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/LambdaExpress.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/LambdaExpress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Lock8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Lock8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/MyCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/MyCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/NotSafeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/NotSafeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ReadWriteLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ReadWriteLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTicketLambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTicketLambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTicketsLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTicketsLock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTicketsLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SaleTicketsLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SemaphoreDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/SemaphoreDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ShareResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ShareResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadOrderAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadOrderAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadPool/MyThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadPool/MyThreadPoolDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadPool/MyThreadPoolDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadPool/MyThreadPoolDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadWaitNotifyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadWaitNotifyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadWaitNotifyDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/ThreadWaitNotifyDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Ticket2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Ticket2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Ticket3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Ticket3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JUC/phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/CodeLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/CodeLoad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/CodeZY.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/CodeZY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/Father.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/Father.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/FinalizeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/FinalizeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/JMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/JMM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/JVMNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/JVMNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/JVMParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/JVMParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/MyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/MyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/JVM/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/Stream/FunctionInterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/Stream/FunctionInterfaceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/Stream/StreamDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/Stream/StreamDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/Stream/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/Stream/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton6$Inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton6$Inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Singleton6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/TestStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/TestStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/TestStep2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/TestStep2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/binarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/codeResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/out/production/offerCode/com/offer/code/codeResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/src/com/offer/JUC/ThreadWaitNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/src/com/offer/JUC/ThreadWaitNotifyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../offerCode/src/com/offer/JVM/CodeLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../offerCode/src/com/offer/JVM/CodeLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serverlet3.0/src/main/java/seraverlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../serverlet3.0/src/main/java/seraverlet/HelloServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +208,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
@@ -29,6 +224,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1b74tNAJaj4AhGnp7DFtozuVBXx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,10 +239,11 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-SpringBootHelloWorld" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16827586" />
     <property name="project.structure.side.proportion" value="0.29027575" />
@@ -73,7 +270,7 @@
       <recent name="D:\JavaCode\SpringBootCore\04-springboot-web-resetfulcrud\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (5)">
+  <component name="RunManager" selected="Spring Boot.HelloWorldMainApplication">
     <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="17-springboot-dubbo-consumer" />
       <extension name="coverage">
@@ -246,125 +443,73 @@
       <workItem from="1589600928752" duration="751000" />
       <workItem from="1589679069810" duration="617000" />
       <workItem from="1589764404716" duration="78000" />
+      <workItem from="1643504973011" duration="2462000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="274" key="#Notifications" timestamp="1588228825073">
+    <state x="549" y="102" key="FileChooserDialogImpl" timestamp="1643539785129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1588228825073" />
-    <state x="10" y="0" width="1464" height="824" key="#Project_Structure" timestamp="1588907029230">
+    <state x="549" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1643539785129" />
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom" timestamp="1643539974644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="10" y="0" width="1464" height="824" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588907029230" />
-    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588907404447">
+    <state width="1493" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643539974644" />
+    <state width="1493" height="225" key="GridCell.Tab.0.center" timestamp="1643539974644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588907404447" />
-    <state x="418" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1589509614681">
+    <state width="1493" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643539974644" />
+    <state width="1493" height="225" key="GridCell.Tab.0.left" timestamp="1643539974644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589509614681" />
-    <state x="299" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589511851419">
+    <state width="1493" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643539974644" />
+    <state width="1493" height="225" key="GridCell.Tab.0.right" timestamp="1643539974644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589511851419" />
-    <state x="454" y="279" width="627" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589511763598">
+    <state width="1493" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643539974644" />
+    <state width="1493" height="225" key="GridCell.Tab.1.bottom" timestamp="1643539949981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="454" y="279" width="627" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589511763598" />
-    <state x="454" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589511853138">
+    <state width="1493" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643539949981" />
+    <state width="1493" height="225" key="GridCell.Tab.1.center" timestamp="1643539949981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="454" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1589511853138" />
-    <state x="544" y="153" key="FileChooserDialogImpl" timestamp="1589679082398">
+    <state width="1493" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1643539949981" />
+    <state width="1493" height="225" key="GridCell.Tab.1.left" timestamp="1643539949980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="544" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589679082398" />
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1589532007618">
+    <state width="1493" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1643539949980" />
+    <state width="1493" height="225" key="GridCell.Tab.1.right" timestamp="1643539949981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589532007618" />
-    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1589532007618">
+    <state width="1493" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1643539949981" />
+    <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1643539787257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589532007618" />
-    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1589532007618">
+    <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1643539787257" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1643539790163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589532007618" />
-    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1589532007618">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1643539790163" />
+    <state x="178" y="72" key="new project wizard" timestamp="1643539766467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589532007618" />
-    <state width="1493" height="136" key="GridCell.Tab.1.bottom" timestamp="1589532007619">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="136" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589532007619" />
-    <state width="1493" height="136" key="GridCell.Tab.1.center" timestamp="1589532007619">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="136" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589532007619" />
-    <state width="1493" height="136" key="GridCell.Tab.1.left" timestamp="1589532007619">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="136" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589532007619" />
-    <state width="1493" height="136" key="GridCell.Tab.1.right" timestamp="1589532007619">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="136" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589532007619" />
-    <state width="1493" height="228" key="GridCell.Tab.2.bottom" timestamp="1588996678323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="228" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588996678323" />
-    <state width="1493" height="228" key="GridCell.Tab.2.center" timestamp="1588996678323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="228" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1588996678323" />
-    <state width="1493" height="228" key="GridCell.Tab.2.left" timestamp="1588996678323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="228" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1588996678323" />
-    <state width="1493" height="228" key="GridCell.Tab.2.right" timestamp="1588996678323">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="228" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1588996678323" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1589421282482">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1589421282482" />
-    <state x="489" y="115" key="NewModule_or_Project.wizard" timestamp="1589421129793">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="489" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1589421129793" />
-    <state x="330" y="0" key="SettingsEditor" timestamp="1589421134593">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="330" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589421134593" />
-    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1588385766739">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588385766739" />
-    <state x="635" y="279" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1588385622501">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="635" y="279" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.824@0.0.1536.824" timestamp="1588385622501" />
-    <state x="157" y="68" key="new project wizard" timestamp="1589532187029">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="157" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589532187029" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1588338914446">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588338914446" />
-    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1589341495353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="430" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589341495353" />
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1643539766467" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
