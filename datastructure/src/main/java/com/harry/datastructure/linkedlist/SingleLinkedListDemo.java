@@ -10,38 +10,63 @@ public class SingleLinkedListDemo {
         HeroNode hero2 = new HeroNode(2, "卢俊义", "玉麒麟");
         HeroNode hero3 = new HeroNode(3, "吴用", "智多星");
         HeroNode hero4 = new HeroNode(4, "林冲", "豹子头");
+        HeroNode hero5 = new HeroNode(5, "鲁智深", "花和尚");
+        HeroNode hero6 = new HeroNode(6, "花荣", "小李广");
+        HeroNode hero7 = new HeroNode(7, "李逵", "黑旋风");
+        HeroNode hero8 = new HeroNode(8, "武松", "行者");
+        HeroNode hero9 = new HeroNode(9, "孙二娘", "母夜叉");
         // 加入
 //        singleLinkedList.add(hero1);
 //        singleLinkedList.add(hero4);
 //        singleLinkedList.add(hero2);
 //        singleLinkedList.add(hero3);
         //加入按照编号的顺序
-        singleLinkedList.addByOrder(hero1);
-        singleLinkedList.addByOrder(hero4);
-        singleLinkedList.addByOrder(hero2);
-        singleLinkedList.addByOrder(hero3);
+//        singleLinkedList.addByOrder(hero1);
+//        singleLinkedList.addByOrder(hero4);
+//        singleLinkedList.addByOrder(hero2);
 //        singleLinkedList.addByOrder(hero3);
-        singleLinkedList.printLink();
+//        singleLinkedList.addByOrder(hero3);
+//        singleLinkedList.printLink();
 
         //测试修改节点的代码
-        HeroNode newHeroNode = new HeroNode(2, "小卢", "玉麒麟~~");
-        singleLinkedList.update(newHeroNode);
-        singleLinkedList.printLink();
+//        HeroNode newHeroNode = new HeroNode(2, "小卢", "玉麒麟~~");
+//        singleLinkedList.update(newHeroNode);
+//        singleLinkedList.printLink();
 //        singleLinkedList.delete(2);
 //        singleLinkedList.delete(4);
 //        singleLinkedList.delete(3);
-        singleLinkedList.printLink();
-        int length = singleLinkedList.getLength();
+//        singleLinkedList.printLink();
+//        int length = singleLinkedList.getLength();
 //        singleLinkedList.reverseList();
 //        singleLinkedList.printLink();
-        singleLinkedList.reversePrint();
+//        singleLinkedList.reversePrint();
+        SingleLinkedList singleLinkedList1 = new SingleLinkedList();
+        singleLinkedList1.add(hero1);
+        singleLinkedList1.add(hero2);
+        singleLinkedList1.add(hero3);
+        singleLinkedList1.add(hero7);
+        singleLinkedList1.printLink();
+        SingleLinkedList singleLinkedList2 = new SingleLinkedList();
+        singleLinkedList2.add(hero4);
+        singleLinkedList2.add(hero5);
+        singleLinkedList2.add(hero6);
+        singleLinkedList2.add(hero8);
+        singleLinkedList2.add(hero9);
+        System.out.println("singleLinkedList2");
+        singleLinkedList2.printLink();
+        SingleLinkedList mergedList = singleLinkedList1.merge(singleLinkedList1, singleLinkedList2);
+        System.out.println("merger");
+        mergedList.printLink();
     }
 }
 
 
 class SingleLinkedList{
     // 先初始化一个头节点, 头节点不要动, 不存放具体的数据
-    HeroNode headNode = new HeroNode(0, "", "");
+    public HeroNode headNode = null;
+    public SingleLinkedList(){
+        headNode = new HeroNode(0, "head", "");
+    }
     //添加节点到单向链表
     //思路，当不考虑编号顺序时
     //1. 找到当前链表的最后节点
@@ -50,14 +75,12 @@ class SingleLinkedList{
 
         //将最后这个节点的 next 指向 新的节
         HeroNode tempCurrentNode = headNode;
-        while (true){
-            if (tempCurrentNode.next == null){
-                tempCurrentNode.next = heroNode;
-                break;
-            }
+
+        while (tempCurrentNode.next != null) {
             //如果没有找到最后, 将将 temp 后移
             tempCurrentNode = tempCurrentNode.next;
         }
+        tempCurrentNode.next = heroNode;
     }
     public void printLink(){
         if (headNode.next == null){
@@ -219,6 +242,25 @@ class SingleLinkedList{
             System.out.println(nodeStack.pop());//stack 的特点是先进后出
         }
     }
+    public SingleLinkedList merge(SingleLinkedList linkedList1, SingleLinkedList linkedList2){
+        SingleLinkedList newLink = new SingleLinkedList();
+        HeroNode newList = new HeroNode(0, "head", "");
+        newLink.headNode = newList;
+        HeroNode listNodeA = linkedList1.headNode.next;
+        HeroNode listNodeB = linkedList2.headNode.next;
+        while (listNodeA  != null && listNodeB != null){
+            if (listNodeA.no <= listNodeB.no){
+                newList.next = listNodeA;
+                listNodeA = listNodeA.next;
+            }else {
+                newList.next = listNodeB;
+                listNodeB = listNodeB.next;
+            }
+            newList = newList.next;
+        }
+        newList.next = listNodeA != null ? listNodeA:listNodeB;
+        return newLink;
+    }
 }
 
 // 定义HeroNode，每个HeroNode对象就是一个节点
@@ -241,7 +283,6 @@ class HeroNode{
                 "no=" + no +
                 ", name='" + name + '\'' +
                 ", nickname='" + nickname + '\'' +
-                ", next=" + next +
                 '}';
     }
 }

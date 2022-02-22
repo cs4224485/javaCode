@@ -20,12 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aca9d4e-b2ad-4663-9bdf-0230f7ae7ca2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../07-05login/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/queue/ArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/queue/CircleArrayQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-05login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-05login/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/Josepfu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/stack/ArrayStackDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/array/SparseArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/linkedlist/HeroNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/linkedlist/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/linkedlist/SingleLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/ArrayQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/CircleArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/CircleArrayQueueDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
