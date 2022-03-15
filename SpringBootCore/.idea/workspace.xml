@@ -20,19 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aca9d4e-b2ad-4663-9bdf-0230f7ae7ca2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/DoubleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/Josepfu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/recursion/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/recursion/Queen8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/recursion/RecursionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/stack/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/stack/PolandNotation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/stack/ReversePolishMultiCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../datastructure/src/main/java/com/harry/datastructure/linkedlist/SingleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/array/SparseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/linkedlist/HeroNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/linkedlist/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/linkedlist/SingleLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/ArrayQueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/CircleArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../datastructure/target/classes/com/harry/datastructure/queue/CircleArrayQueueDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +284,8 @@
       <workItem from="1589679069810" duration="617000" />
       <workItem from="1589764404716" duration="78000" />
       <workItem from="1643504973011" duration="2462000" />
-      <workItem from="1644720121970" duration="7826000" />
+      <workItem from="1644720121970" duration="10219000" />
+      <workItem from="1646443257993" duration="1203000" />
     </task>
     <servers />
   </component>
