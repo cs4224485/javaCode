@@ -8,6 +8,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Arrays;
+
 @Configuration(proxyBeanMethods = true)
 @ConditionalOnMissingBean(name = "tom")
 @EnableConfigurationProperties()
@@ -20,13 +22,13 @@ public class Myconfig {
     public User user01(){
         User zhangsan = new User("zhangsan", 18);
         //user组件依赖了Pet组件
-        zhangsan.setPet(tomcatPet());
+       zhangsan.setPets(Arrays.asList(new Pet(123, "ss")));
         return zhangsan;
     }
 
     @Bean("tom")
     public Pet tomcatPet(){
-        return new Pet("tomcat");
+        return new Pet(1,"tomcat");
     }
 
     @Bean("car")

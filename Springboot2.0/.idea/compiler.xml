@@ -8,6 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
+        <module name="hello-harry-spring-boot-starter" />
+        <module name="hello-harry-spring-boot-starterautoconfigure" />
+        <module name="springboot-start-test" />
         <module name="autoconfig" />
       </profile>
     </annotationProcessing>
@@ -15,7 +18,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="autoconfig" options="-parameters" />
+      <module name="hello-harry-spring-boot-starter" options="-parameters" />
+      <module name="hello-harry-spring-boot-starterautoconfigure" options="-parameters" />
       <module name="helloworld" options="-parameters" />
+      <module name="springboot-start-test" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,61 @@
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+#
+#  web:
+#    static-locations: [classpath:/haha/]
+
+server:
+  port: 8081
+
+spring:
+  contentnegotiation:
+    favor-parameter: true  #开启请求参数内容协商模式
+
+  datasource:
+    url: jdbc:mysql://192.168.31.71:3306/db_account
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      aop-patterns: com.harry.springboot.*  #springbean监控
+      filters: stat,wall,slf4j  #所有开启的功能
+
+      stat-view-servlet: #监控页配置
+        enabled: true
+        login-username: admin
+        login-password: admin
+        resetEnable: false
+
+      web-stat-filter: #web监控
+        enabled: true
+        urlPattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+
+      filter:
+        stat: #sql监控
+          slow-sql-millis: 1000
+          logSlowSql: true
+          enabled: true
+        wall: #防火墙
+          enabled: true
+          config:
+            drop-table-allow: false
+
+management:
+  endpoints:
+    enabled-by-default: true #暴露所有端点信息
+    web:
+      exposure:
+        include: '*'  #以web方式暴露
+
+  endpoint:
+    health:
+      show-details: always
+    info:
+      appName: boot-admin
+      version: 2.0.1
+      mavenProjectName: autoconfig  #使用@@可以获取maven的pom文件值
+      mavenProjectVersion: 1.0-SNAPSHOT
+      enabled: true

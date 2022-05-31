@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCircleDependency/SpringCircleDependency.iml" filepath="$PROJECT_DIR$/SpringCircleDependency/SpringCircleDependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootRedis01/bootRedis01.iml" filepath="$PROJECT_DIR$/bootRedis01/bootRedis01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootRedis02/bootRedis02.iml" filepath="$PROJECT_DIR$/bootRedis02/bootRedis02.iml" />
       <module fileurl="file://$PROJECT_DIR$/offerCode.iml" filepath="$PROJECT_DIR$/offerCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springTest/springTest.iml" filepath="$PROJECT_DIR$/springTest/springTest.iml" />
     </modules>
   </component>
 </project>

@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-harry-spring-boot-starterautoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-start-test/pom.xml" />
       </list>
     </option>
   </component>
