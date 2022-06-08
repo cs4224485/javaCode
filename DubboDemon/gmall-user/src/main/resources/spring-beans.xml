@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <context:component-scan base-package="com.harry.dubbo"/>
+    <bean id="userServiceImpl" class="com.harry.dubbo.service.UserServiceImpl"></bean>
+    <!--当前应用的名字  -->
+    <dubbo:application name="gmall-user"></dubbo:application>
+    <!--指定注册中心的地址  -->
+    <dubbo:registry address="zookeeper://192.168.31.96:2181" />
+    <!--使用dubbo协议，将服务暴露在20880端口  -->
+    <dubbo:protocol name="dubbo" port="20880" />
+    <!-- 指定需要暴露的服务 -->
+    <dubbo:service interface="com.harry.dubbo.service.UserService" ref="userServiceImpl" />
+
+</beans>
+
+

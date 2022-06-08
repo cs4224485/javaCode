@@ -64,17 +64,17 @@ public class WebConfig  {
             /***
              * 自定义内容协商策略
              */
-//            @Override
-//            public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
-//                Map<String, MediaType> mediaTypeMap = new HashMap<>();
-//                mediaTypeMap.put("json", MediaType.APPLICATION_JSON);
-//                mediaTypeMap.put("xml", MediaType.APPLICATION_XML);
-//                mediaTypeMap.put("text/html", MediaType.TEXT_HTML);
-//                        mediaTypeMap.put("gg", MediaType.parseMediaType("application/x-harry"));
-//                // 指定支持解析哪些参数对应的哪些媒体类型
-//                ParameterContentNegotiationStrategy strategy = new ParameterContentNegotiationStrategy(mediaTypeMap);
-//                configurer.strategies(Arrays.asList(strategy));
-//            }
+            @Override
+            public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+                Map<String, MediaType> mediaTypeMap = new HashMap<>();
+                mediaTypeMap.put("json", MediaType.APPLICATION_JSON);
+                mediaTypeMap.put("xml", MediaType.APPLICATION_XML);
+                mediaTypeMap.put("text/html", MediaType.TEXT_HTML);
+                        mediaTypeMap.put("gg", MediaType.parseMediaType("application/x-harry"));
+                // 指定支持解析哪些参数对应的哪些媒体类型
+                ParameterContentNegotiationStrategy strategy = new ParameterContentNegotiationStrategy(mediaTypeMap);
+                configurer.strategies(Arrays.asList(strategy));
+            }
 
             @Override
             public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {

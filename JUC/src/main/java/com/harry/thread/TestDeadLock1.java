@@ -20,13 +20,14 @@ public class TestDeadLock1 {
     }
 
     public static void main(String[] args) {
-        ExecutorService waiterPool = Executors.newFixedThreadPool(1);
-        ExecutorService cookPool = Executors.newFixedThreadPool(1);
+        ExecutorService waiterPool = Executors.newFixedThreadPool(2);
+        ExecutorService cookPool = Executors.newFixedThreadPool(2);
 
         waiterPool.execute(() ->{
             log.debug("处理点餐");
             Future<String> f = cookPool.submit(() ->{
                 log.debug("做菜");
+                Thread.sleep(1000);
                 return cooking();
             });
             try {
@@ -39,6 +40,7 @@ public class TestDeadLock1 {
         waiterPool.execute(() ->{
             log.debug("处理点餐");
             Future<String> f = cookPool.submit(() ->{
+                Thread.sleep(2000);
                 log.debug("做菜");
                 return cooking();
             });
