@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c3dc99-1796-4411-ac1a-d7adeb230750" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ActiveMQ-demon/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/main/java/basic/Condtional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/main/java/basic/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/main/java/basic/ProviderConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/main/java/basic/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/main/java/basic/StringMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../offerCode/src/com/offer/JUC/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../offerCode/src/com/offer/code/Exam4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../offerCode/src/com/offer/code/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../offerCode/src/com/offer/code/Increament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springdata-jpa/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ActiveMQ-demon/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ActiveMQ-demon/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DubboDemon/dubbo-registry/dubbo-registry.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DubboDemon/dubbo-registry/dubbo-registry.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/src/main/java/jvm/HelloGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/src/main/java/jvm/HelloGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/src/main/java/jvm/MetaspaceOutOfMemoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/src/main/java/jvm/MetaspaceOutOfMemoryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/target/classes/META-INF/interview.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/target/classes/META-INF/interview.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/target/classes/jvm/HelloGC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/target/classes/jvm/HelloGC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsecurity-springmvc/src/main/java/com/harry/security/service/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsecurity-springmvc/src/main/java/com/harry/security/service/AuthenticationServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/distributed-security-order/src/main/java/com/harry/security/oauth2/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.1953125" />
     <property name="project.structure.side.proportion" value="0.69501823" />
@@ -163,6 +185,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -177,11 +200,12 @@
       <workItem from="1604723931752" duration="260000" />
       <workItem from="1604724212942" duration="24437000" />
       <workItem from="1605007493913" duration="11502000" />
+      <workItem from="1656556715856" duration="4699000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -193,73 +217,7 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2582" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604726353668">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2582" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604726353668" />
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605010388402">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605010388402" />
-    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1604723740736">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604723740736" />
-    <state width="1877" height="195" key="GridCell.Tab.0.bottom" timestamp="1605418068758">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1877" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068758" />
-    <state width="1877" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="195" key="GridCell.Tab.0.center" timestamp="1605418068757">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1877" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068757" />
-    <state width="1877" height="355" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="195" key="GridCell.Tab.0.left" timestamp="1605418068757">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1877" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068757" />
-    <state width="1877" height="355" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1877" height="195" key="GridCell.Tab.0.right" timestamp="1605418068757">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1877" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068757" />
-    <state width="1877" height="355" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1493" height="355" key="GridCell.Tab.1.bottom" timestamp="1605418068688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="355" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
-    <state width="1877" height="355" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1493" height="355" key="GridCell.Tab.1.center" timestamp="1605418068688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="355" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
-    <state width="1877" height="355" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1493" height="355" key="GridCell.Tab.1.left" timestamp="1605418068688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="355" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
-    <state width="1877" height="355" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state width="1493" height="355" key="GridCell.Tab.1.right" timestamp="1605418068688">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="355" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418068688" />
-    <state width="1877" height="355" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605016104050" />
-    <state x="2381" y="164" key="SettingsEditor" timestamp="1604724352179">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604724352179" />
-    <state x="267" y="143" key="new project wizard" timestamp="1605418061449">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="267" y="143" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605418061449" />
-    <state x="2254" y="180" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604922001914" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604806145110">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604806145110" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />

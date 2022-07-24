@@ -16,7 +16,7 @@ import java.util.Set;
  * @version 1.0
  **/
 @Service
-public class AuthenticationServiceImpl implements  AuthenticationService{
+public class authenticationserviceimpl implements  AuthenticationService{
     /**
      * 用户认证，校验用户身份信息是否合法
      *

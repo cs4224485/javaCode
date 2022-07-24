@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="distributed-security-gateway" />
+        <module name="distributed-security-uaa" />
         <module name="distributed-security-order" />
         <module name="distributed-security-discovery" />
-        <module name="distributed-security-uaa" />
-        <module name="distributed-security-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +26,7 @@
       <module name="distributed-security-gateway" options="-parameters" />
       <module name="distributed-security-order" options="-parameters" />
       <module name="distributed-security-uaa" options="-parameters" />
+      <module name="springboot-securityOauth2" options="-parameters" />
     </option>
   </component>
 </project>
